@@ -14,25 +14,25 @@
             <li id="li-title">
                <header><h1>HTML Basics</h1></header>
             </li>
-            <li><a class="nav-link" href="#introduction">Introduction</a></li>
-            <li><a class="nav-link" href="#so-what-is-html">So what is HTML?</a></li>
-            <li class="indent"><a class="nav-link" href="#anatomy-of-an-html-element">Anatomy of an HTML element</a></li>
-            <li class="indent"><a class="nav-link" href="#nesting-elements">Nesting elements</a></li>
-            <li class="indent"><a class="nav-link" href="#empty-elements">Empty Elements</a></li>
-            <li class="indent"><a class="nav-link" href="#anatomy-of-an-html-document">Anatomy of an HTML document</a></li>
-            <li><a class="nav-link" href="#images">Images</a></li>
-            <li><a class="nav-link" href="#marking-up-text">Marking up text</a></li>
-            <li class="indent"><a class="nav-link" href="#headings">Headings</a></li>
-            <li class="indent"><a class="nav-link" href="#paragraphs">Paragraphs</a></li>
-            <li class="indent"><a class="nav-link" href="#lists">Lists</a></li>
-            <li><a class="nav-link" href="#links">Links</a></li>
-            <li><a class="nav-link" href="#conclusion">Conclusion</a></li>
-            <li><a class="nav-link" href="#credits">Credits</a></li>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#So_what_is_HTML?">So what is HTML?</a></li>
+            <li class="indent"><a class="nav-sub-link" href="#Anatomy_of_an_HTML_element">Anatomy of an HTML element</a></li>
+            <li class="indent"><a class="nav-sub-link" href="#Nesting_elements">Nesting elements</a></li>
+            <li class="indent"><a class="nav-sub-link" href="#Empty_elements">Empty elements</a></li>
+            <li class="indent"><a class="nav-sub-link" href="#Anatomy_of_an_HTML_document">Anatomy of an HTML document</a></li>
+            <li><a class="nav-link" href="#Images">Images</a></li>
+            <li><a class="nav-link" href="#Marking_up_text">Marking up text</a></li>
+            <li class="indent"><a class="nav-sub-link" href="#Headings">Headings</a></li>
+            <li class="indent"><a class="nav-sub-link" href="#Paragraphs">Paragraphs</a></li>
+            <li class="indent"><a class="nav-sub-link" href="#Lists">Lists</a></li>
+            <li><a class="nav-link" href="#Links">Links</a></li>
+            <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+            <li><a class="nav-link" href="#Credits">Credits</a></li>
         </ul>
     </nav>
     <div class="content">
         <main id="main-doc">
-            <section id="introduction" class="main-section">
+            <section id="Introduction" class="main-section">
                 <header><h2>Introduction</h2></header>
                 <p>HTML (<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage)
                     is the code that is used to structure a web page and its content. For example, content could be
@@ -40,7 +40,7 @@
                     As the title suggests, this article will give you a basic understanding of HTML and its functions.
                 </p>
             </section>
-            <section id="so-what-is-html" class="main-section">
+            <section id="So_what_is_HTML?" class="main-section">
                 <header><h2>So what is HTML?</h2></header>
                 <p>
                     HTML is a <em>markup language</em> that defines the structure of your content. HTML consists of a
@@ -59,7 +59,7 @@
                 <code>
                    &lt;p&gt;My cat is very grumpy&lt;/p&gt;
                 </code>
-                <h3 id="anatomy-of-an-html-element">Anatomy of an HTML element</h3>
+                <h3 id="Anatomy_of_an_HTML_element">Anatomy of an HTML element</h3>
                 <p>
                     Let's explore this paragraph element a bit further.
                 </p>
@@ -68,7 +68,7 @@
                 <p>
                     The main parts of our element are as follows:
                 </p>
-                <ol class="arabic-number-list">
+                <ol>
                     <li><strong>The opening tag: </strong>This consists of the name of the element (in this case, p),
                         wrapped in opening and closing <strong>angle brackets</strong>. This states where the element
                         begins or starts to take effect — in this case where the paragraph begins.</li>
@@ -111,7 +111,7 @@
                     it is recommended that you quote all attribute values, as it makes the code more consistent and
                     understandable.
                 </div>
-                <h3 id="nesting-elements">Nesting elements</h3>
+                <h3 id="Nesting_elements">Nesting elements</h3>
                 <p>
                     You can put elements inside other elements too — this is called <strong>nesting</strong>. If we
                     wanted to state that our cat is <strong>very</strong> grumpy, we could wrap the word "very" in a
@@ -136,7 +136,7 @@
                     another. If they overlap as shown above, then your web browser will try to make the best guess at
                     what you were trying to say, which can lead to unexpected results. So don't do it!
                 </p>
-                <h3 id="empty-elements">Empty elements</h3>
+                <h3 id="Empty_elements">Empty elements</h3>
                 <p>
                     Some elements have no content and are called <strong>empty elements</strong>. Take the <code
                         class="code-inline">&lt;img&gt;</code> element that we already have in our HTML page:
@@ -149,7 +149,7 @@
                     tag and no inner content. This is because an image element doesn't wrap content to affect it. Its
                     purpose is to embed an image in the HTML page in the place it appears.
                 </p>
-                <h3 id="anatomy-of-an-html-document">Anatomy of an HTML document</h3>
+                <h3 id="Anatomy_of_an_HTML_document">Anatomy of an HTML document</h3>
                 <p>
                     That wraps up the basics of individual HTML elements, but they aren't handy on their own. Now we'll
                     look at how individual elements are combined to form an entire HTML page:
@@ -210,7 +210,7 @@
                     </li>
                 </ul>
             </section>
-            <section id="images" class="main-section">
+            <section id="Images" class="main-section">
                 <header><h2>Images</h2></header>
                 <p>Let's turn our attention to the <code class="code-inline">&lt;img&gt;</code> element again:</p>
                 <code>
@@ -249,7 +249,7 @@
                     Try coming up with some better alt text for your image now.
                 </p>
             </section>
-            <section id="marking-up-text" class="main-section">
+            <section id="Marking_up_text" class="main-section">
                 <header><h2>Marking up text</h2></header>
                 <p>This section will cover some of the essential HTML elements you'll use for marking up the text.</p>
                 <h3 id="headings">Headings</h3>
@@ -327,7 +327,7 @@
                     Try adding an ordered or unordered list to your example page.
                 </p>
             </section>
-            <section id="links" class="main-section">
+            <section id="Links" class="main-section">
                 <header><h2>Links</h2></header>
                 <p>
                     Links are very important — they are what makes the web a web! To add a link, we need to use a simple
@@ -371,14 +371,14 @@
                 </div>
                 <p>Add a link to your page now, if you haven't already done so.</p>
             </section>
-            <section id="conclusion" class="main-section">
+            <section id="Conclusion" class="main-section">
                 <header><h2>Conclusion</h2></header>
                 <p>If you have followed all the instructions in this article, you should end up with a page that looks
                     like the one below:</p>
                 <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/finished-test-page-small.png"
                     alt="A web page screenshot showing a Firefox logo, a heading saying Mozilla is cool, and two paragraphs of filler text">
             </section>
-            <section id="credits" class="main-section">
+            <section id="Credits" class="main-section">
                 <header><h2>Credits</h2></header>
                 <p><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML
                         basics</a> by <a
