@@ -4,4 +4,4 @@ This a project from [Free Code Camp](https://www.freecodecamp.org) to receive th
 
 Here it is the model: https://technical-documentation-page.freecodecamp.rocks.
 
-Here it is my version: https://codepen.io/italo9311/full/MWVwyWd. I used the text of [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) of MDN.
+Here it is my version: https://italo617.github.io/technical-documentation-page-fcc/. I used the text of [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) of MDN.
